@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "mod-menu-click-sound-fix",
+	"version": "${version}",
+	"name": "Mod Menu Click Sound Fix",
+	"description": "Adds a click sound to the \"Quick Configure\" functionality in Mod Menu",
+	"authors": ["NamelessJu"],
+	"contact": {
+		"homepage": "https://modrinth.com/project/mod-menu-click-sound-fix/",
+		"sources": "https://github.com/NamelessJu/Mod-Menu-Click-Sound-Fix"
+	},
+	"license": "MIT",
+	"icon": "icon.png",
+	"environment": "client",
+	"entrypoints": {},
+	"mixins": [
+		{
+			"config": "mod-menu-click-sound-fix.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": ">=26.1",
+		"java": ">=25",
+		"modmenu": ">=18.0.2"
+	}
+}

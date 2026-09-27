@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "namelessju.modmenuclicksoundfix.client.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+        "ModListEntryMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
